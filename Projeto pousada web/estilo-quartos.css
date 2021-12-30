@@ -45,4 +45,18 @@ header .topo {
     justify-content: center;
     align-items: center;   
 }
+.container-solteiro {
+    display: flex;
+    justify-content: center;
+}
+.solteiro {    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 250px;
+    width: 600px;
+    font-size: 20px;
+    text-align: center; 
+}
 
