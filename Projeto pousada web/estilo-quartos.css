@@ -45,11 +45,11 @@ header .topo {
     justify-content: center;
     align-items: center;   
 }
-.container-solteiro {
+.container-solteiro-casal-familia {
     display: flex;
     justify-content: center;
 }
-.solteiro {    
+.solteiro-casal-familia {    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,3 +60,27 @@ header .topo {
     text-align: center; 
 }
 
+.container-quartos-casal-familia {
+    max-width: 1024px;
+    margin: 0px;
+}
+.quartos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+    margin-left: 50px;  
+    margin-right: 50px;
+}
+.quarto{
+    margin-right: 30px; 
+    padding-bottom: 20px;  
+    border-width: 0px 0px 3px 0px;
+    border-style: solid;
+    border-color: rgb(47, 133, 104);
+    text-decoration: none;
+    color: #3d3d3d
+}
+#quartos {
+    width: 450px;
+    height: 300px;
+}
