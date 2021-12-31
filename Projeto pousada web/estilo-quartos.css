@@ -47,15 +47,15 @@ header .topo {
 }
 .container-solteiro-casal-familia {
     display: flex;
-    justify-content: center;
+    justify-content: center;        
 }
 .solteiro-casal-familia {    
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    height: 250px;
-    width: 600px;
+    height: auto;
+    width: 350px;
     font-size: 20px;
     text-align: center; 
 }
