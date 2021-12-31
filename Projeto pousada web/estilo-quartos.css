@@ -84,3 +84,61 @@ header .topo {
     width: 450px;
     height: 300px;
 }
+
+
+
+
+
+.container-rodape {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+    background-color: rgb(47, 133, 104);    
+}
+.container-rodape .container-rodape-01 {
+    width: 300px;
+    height: 100px;
+    display: flex;
+    align-items: center;    
+}
+.container-rodape .container-rodape-01 h2 {    
+    padding: 10px 10px;
+    font-size: 30px;
+
+}
+.container-rodape .container-rodape-02 {
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 20px;
+    padding: 20px 20px;        
+}
+.container-rodape .container-rodape-02 img {
+    width: 50px;
+    height: auto;
+    margin: 20px 10px;
+}
+.container-rodape .container-rodape-02 .link-rodape {
+    text-transform: none;
+    text-decoration: none;
+    color: #fff;
+}
+.rodape-final {
+    height: 40px;
+    width: 100%;
+    border-width: 1px 0px 0px 0px;
+    border-color: #3d3d3d;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(47, 133, 104);
+}
+.rodape-final h4 {
+    color: #fff;
+}
+ 
