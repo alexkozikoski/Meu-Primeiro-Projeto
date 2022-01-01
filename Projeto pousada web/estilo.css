@@ -216,4 +216,10 @@ header .topo {
 .rodape-final h4 {
     color: #fff;
 }
- 
+.inicio {
+    text-transform: none;
+    text-decoration: none;
+    color: rgb(47, 157, 248);
+    text-transform: capitalize;
+    font-weight: 200;    
+}
